@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    font: normal 15pt Arial; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: white;
+}
+
+section {
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+    width: 90%;
+    max-width: 700px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+#botao {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: gray; 
+    color: white;
+    border: none;
+    font-size: 14pt;
+    cursor: pointer;
+    transition: background-color 0.s ease;
+}
+
+#botao:hover {
+    background-color: black; 
+}
